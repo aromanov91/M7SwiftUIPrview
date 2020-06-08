@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,16 @@
 		3ACCD9FA248D8BFF00880DC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACCD9F8248D8BFF00880DC7 /* LaunchScreen.storyboard */; };
 		3ACCDA05248D8C0000880DC7 /* M7SwiftUIPrviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACCDA04248D8C0000880DC7 /* M7SwiftUIPrviewTests.swift */; };
 		3ACCDA10248D8C0000880DC7 /* M7SwiftUIPrviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACCDA0F248D8C0000880DC7 /* M7SwiftUIPrviewUITests.swift */; };
+		3ADFDDEF248D8E4200C6B03F /* M7SwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3ADFDDEE248D8E4200C6B03F /* M7SwiftUI */; };
+		3AEA0256248EC17100479A79 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA024D248EC17100479A79 /* Montserrat-Medium.ttf */; };
+		3AEA0257248EC17100479A79 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA024E248EC17100479A79 /* Montserrat-Light.ttf */; };
+		3AEA0258248EC17100479A79 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA024F248EC17100479A79 /* Montserrat-ExtraLight.ttf */; };
+		3AEA0259248EC17100479A79 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA0250248EC17100479A79 /* Montserrat-Thin.ttf */; };
+		3AEA025A248EC17100479A79 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA0251248EC17100479A79 /* Montserrat-Bold.ttf */; };
+		3AEA025B248EC17100479A79 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA0252248EC17100479A79 /* Montserrat-SemiBold.ttf */; };
+		3AEA025C248EC17100479A79 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA0253248EC17100479A79 /* Montserrat-ExtraBold.ttf */; };
+		3AEA025D248EC17100479A79 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA0254248EC17100479A79 /* Montserrat-Black.ttf */; };
+		3AEA025E248EC17100479A79 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA0255248EC17100479A79 /* Montserrat-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		3ACCDA0B248D8C0000880DC7 /* M7SwiftUIPrviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M7SwiftUIPrviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ACCDA0F248D8C0000880DC7 /* M7SwiftUIPrviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M7SwiftUIPrviewUITests.swift; sourceTree = "<group>"; };
 		3ACCDA11248D8C0000880DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ADFDDED248D8E2A00C6B03F /* M7SwiftUI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = M7SwiftUI; path = ../M7SwiftUI; sourceTree = "<group>"; };
+		3AEA024D248EC17100479A79 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		3AEA024E248EC17100479A79 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		3AEA024F248EC17100479A79 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		3AEA0250248EC17100479A79 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		3AEA0251248EC17100479A79 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		3AEA0252248EC17100479A79 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		3AEA0253248EC17100479A79 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		3AEA0254248EC17100479A79 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		3AEA0255248EC17100479A79 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ADFDDEF248D8E4200C6B03F /* M7SwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +100,12 @@
 		3ACCD9E1248D8BFE00880DC7 = {
 			isa = PBXGroup;
 			children = (
+				3ADFDDED248D8E2A00C6B03F /* M7SwiftUI */,
 				3ACCD9EC248D8BFE00880DC7 /* M7SwiftUIPrview */,
 				3ACCDA03248D8C0000880DC7 /* M7SwiftUIPrviewTests */,
 				3ACCDA0E248D8C0000880DC7 /* M7SwiftUIPrviewUITests */,
 				3ACCD9EB248D8BFE00880DC7 /* Products */,
+				3ACCDA1E248D8C4600880DC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +128,7 @@
 				3ACCD9F3248D8BFF00880DC7 /* Assets.xcassets */,
 				3ACCD9F8248D8BFF00880DC7 /* LaunchScreen.storyboard */,
 				3ACCD9FB248D8BFF00880DC7 /* Info.plist */,
+				3AEA024C248EC17100479A79 /* Fonts */,
 				3ACCD9F5248D8BFF00880DC7 /* Preview Content */,
 			);
 			path = M7SwiftUIPrview;
@@ -136,6 +160,29 @@
 			path = M7SwiftUIPrviewUITests;
 			sourceTree = "<group>";
 		};
+		3ACCDA1E248D8C4600880DC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AEA024C248EC17100479A79 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3AEA024D248EC17100479A79 /* Montserrat-Medium.ttf */,
+				3AEA024E248EC17100479A79 /* Montserrat-Light.ttf */,
+				3AEA024F248EC17100479A79 /* Montserrat-ExtraLight.ttf */,
+				3AEA0250248EC17100479A79 /* Montserrat-Thin.ttf */,
+				3AEA0251248EC17100479A79 /* Montserrat-Bold.ttf */,
+				3AEA0252248EC17100479A79 /* Montserrat-SemiBold.ttf */,
+				3AEA0253248EC17100479A79 /* Montserrat-ExtraBold.ttf */,
+				3AEA0254248EC17100479A79 /* Montserrat-Black.ttf */,
+				3AEA0255248EC17100479A79 /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +199,9 @@
 			dependencies = (
 			);
 			name = M7SwiftUIPrview;
+			packageProductDependencies = (
+				3ADFDDEE248D8E4200C6B03F /* M7SwiftUI */,
+			);
 			productName = M7SwiftUIPrview;
 			productReference = 3ACCD9EA248D8BFE00880DC7 /* M7SwiftUIPrview.app */;
 			productType = "com.apple.product-type.application";
@@ -240,9 +290,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AEA025E248EC17100479A79 /* Montserrat-Regular.ttf in Resources */,
+				3AEA0257248EC17100479A79 /* Montserrat-Light.ttf in Resources */,
+				3AEA0258248EC17100479A79 /* Montserrat-ExtraLight.ttf in Resources */,
 				3ACCD9FA248D8BFF00880DC7 /* LaunchScreen.storyboard in Resources */,
 				3ACCD9F7248D8BFF00880DC7 /* Preview Assets.xcassets in Resources */,
+				3AEA025A248EC17100479A79 /* Montserrat-Bold.ttf in Resources */,
+				3AEA025C248EC17100479A79 /* Montserrat-ExtraBold.ttf in Resources */,
+				3AEA0256248EC17100479A79 /* Montserrat-Medium.ttf in Resources */,
+				3AEA025D248EC17100479A79 /* Montserrat-Black.ttf in Resources */,
+				3AEA025B248EC17100479A79 /* Montserrat-SemiBold.ttf in Resources */,
 				3ACCD9F4248D8BFF00880DC7 /* Assets.xcassets in Resources */,
+				3AEA0259248EC17100479A79 /* Montserrat-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +498,7 @@
 				DEVELOPMENT_TEAM = VF3N89U52T;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = M7SwiftUIPrview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +519,7 @@
 				DEVELOPMENT_TEAM = VF3N89U52T;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = M7SwiftUIPrview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -594,6 +655,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3ADFDDEE248D8E4200C6B03F /* M7SwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = M7SwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3ACCD9E2248D8BFE00880DC7 /* Project object */;
 }
