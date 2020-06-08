@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3ACCD9EE248D8BFE00880DC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACCD9ED248D8BFE00880DC7 /* AppDelegate.swift */; };
 		3ACCD9F0248D8BFE00880DC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACCD9EF248D8BFE00880DC7 /* SceneDelegate.swift */; };
-		3ACCD9F2248D8BFE00880DC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACCD9F1248D8BFE00880DC7 /* ContentView.swift */; };
 		3ACCD9F4248D8BFF00880DC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ACCD9F3248D8BFF00880DC7 /* Assets.xcassets */; };
 		3ACCD9F7248D8BFF00880DC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ACCD9F6248D8BFF00880DC7 /* Preview Assets.xcassets */; };
 		3ACCD9FA248D8BFF00880DC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACCD9F8248D8BFF00880DC7 /* LaunchScreen.storyboard */; };
@@ -25,6 +24,12 @@
 		3AEA025C248EC17100479A79 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA0253248EC17100479A79 /* Montserrat-ExtraBold.ttf */; };
 		3AEA025D248EC17100479A79 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA0254248EC17100479A79 /* Montserrat-Black.ttf */; };
 		3AEA025E248EC17100479A79 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA0255248EC17100479A79 /* Montserrat-Regular.ttf */; };
+		3AEA0265248ED38C00479A79 /* TextPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA025F248ED38B00479A79 /* TextPreview.swift */; };
+		3AEA0266248ED38C00479A79 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA0260248ED38B00479A79 /* RootView.swift */; };
+		3AEA0267248ED38C00479A79 /* ThemePrview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA0261248ED38B00479A79 /* ThemePrview.swift */; };
+		3AEA0268248ED38C00479A79 /* ButtonsPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA0262248ED38B00479A79 /* ButtonsPreview.swift */; };
+		3AEA0269248ED38C00479A79 /* BackgroundPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA0263248ED38B00479A79 /* BackgroundPreview.swift */; };
+		3AEA026A248ED38C00479A79 /* SurfacePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA0264248ED38B00479A79 /* SurfacePreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +53,6 @@
 		3ACCD9EA248D8BFE00880DC7 /* M7SwiftUIPrview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M7SwiftUIPrview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ACCD9ED248D8BFE00880DC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ACCD9EF248D8BFE00880DC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3ACCD9F1248D8BFE00880DC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3ACCD9F3248D8BFF00880DC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ACCD9F6248D8BFF00880DC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3ACCD9F9248D8BFF00880DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,6 +73,12 @@
 		3AEA0253248EC17100479A79 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
 		3AEA0254248EC17100479A79 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
 		3AEA0255248EC17100479A79 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		3AEA025F248ED38B00479A79 /* TextPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextPreview.swift; sourceTree = "<group>"; };
+		3AEA0260248ED38B00479A79 /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		3AEA0261248ED38B00479A79 /* ThemePrview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemePrview.swift; sourceTree = "<group>"; };
+		3AEA0262248ED38B00479A79 /* ButtonsPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsPreview.swift; sourceTree = "<group>"; };
+		3AEA0263248ED38B00479A79 /* BackgroundPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundPreview.swift; sourceTree = "<group>"; };
+		3AEA0264248ED38B00479A79 /* SurfacePreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurfacePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +134,12 @@
 			children = (
 				3ACCD9ED248D8BFE00880DC7 /* AppDelegate.swift */,
 				3ACCD9EF248D8BFE00880DC7 /* SceneDelegate.swift */,
-				3ACCD9F1248D8BFE00880DC7 /* ContentView.swift */,
+				3AEA0263248ED38B00479A79 /* BackgroundPreview.swift */,
+				3AEA0262248ED38B00479A79 /* ButtonsPreview.swift */,
+				3AEA0260248ED38B00479A79 /* RootView.swift */,
+				3AEA0264248ED38B00479A79 /* SurfacePreview.swift */,
+				3AEA025F248ED38B00479A79 /* TextPreview.swift */,
+				3AEA0261248ED38B00479A79 /* ThemePrview.swift */,
 				3ACCD9F3248D8BFF00880DC7 /* Assets.xcassets */,
 				3ACCD9F8248D8BFF00880DC7 /* LaunchScreen.storyboard */,
 				3ACCD9FB248D8BFF00880DC7 /* Info.plist */,
@@ -326,9 +341,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AEA0268248ED38C00479A79 /* ButtonsPreview.swift in Sources */,
+				3AEA0267248ED38C00479A79 /* ThemePrview.swift in Sources */,
 				3ACCD9EE248D8BFE00880DC7 /* AppDelegate.swift in Sources */,
 				3ACCD9F0248D8BFE00880DC7 /* SceneDelegate.swift in Sources */,
-				3ACCD9F2248D8BFE00880DC7 /* ContentView.swift in Sources */,
+				3AEA026A248ED38C00479A79 /* SurfacePreview.swift in Sources */,
+				3AEA0269248ED38C00479A79 /* BackgroundPreview.swift in Sources */,
+				3AEA0265248ED38C00479A79 /* TextPreview.swift in Sources */,
+				3AEA0266248ED38C00479A79 /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
