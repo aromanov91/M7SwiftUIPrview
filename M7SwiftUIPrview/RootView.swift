@@ -11,39 +11,45 @@ import M7SwiftUI
 
 struct RootView: View {
     
-    init() { UITableView.appearance().separatorStyle = .none }
-
     var body: some View {
         
         NavigationView {
             
-            List {
-                
+            M7List {
+
                 NavigationLink(destination: ButtonsPreview()) {
-                    Text("Buttons")
+                    M7Row("Buttons")
                 }
-                
+
                 NavigationLink(destination: SurfacePreview()) {
-                    Text("Surface")
+                    M7Row("Surface")
                 }
-                
+
                 NavigationLink(destination: BackgroundPreview()) {
-                    Text("Background")
+                    M7Row("Background")
                 }
-                
+
                 NavigationLink(destination: TextPreview()) {
-                    Text("Text")
+                    M7Row("Text")
                 }
-                
+
+                NavigationLink(destination: TextFieldPreview()) {
+                    M7Row("Text field")
+                }
+
+                NavigationLink(destination: RowPreview()) {
+                    M7Row("Row")
+                }
+
                 NavigationLink(destination: ThemePrview()) {
-                    Text("Colors")
+                    M7Row("Colors")
                 }
                 
+                
+
             }.navigationBarTitle("General")
-            
         }
     }
-    
 }
 
 struct GeneralView_Previews: PreviewProvider {

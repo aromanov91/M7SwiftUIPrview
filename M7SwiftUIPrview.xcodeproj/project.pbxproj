@@ -30,6 +30,8 @@
 		3AEA0268248ED38C00479A79 /* ButtonsPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA0262248ED38B00479A79 /* ButtonsPreview.swift */; };
 		3AEA0269248ED38C00479A79 /* BackgroundPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA0263248ED38B00479A79 /* BackgroundPreview.swift */; };
 		3AEA026A248ED38C00479A79 /* SurfacePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA0264248ED38B00479A79 /* SurfacePreview.swift */; };
+		3AEA02F7249023BB00479A79 /* TextFieldPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA02F6249023BA00479A79 /* TextFieldPreview.swift */; };
+		3AFB8A8C2494DB1A000F2CF5 /* RowPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB8A8B2494DB1A000F2CF5 /* RowPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,8 @@
 		3AEA0262248ED38B00479A79 /* ButtonsPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsPreview.swift; sourceTree = "<group>"; };
 		3AEA0263248ED38B00479A79 /* BackgroundPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundPreview.swift; sourceTree = "<group>"; };
 		3AEA0264248ED38B00479A79 /* SurfacePreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurfacePreview.swift; sourceTree = "<group>"; };
+		3AEA02F6249023BA00479A79 /* TextFieldPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldPreview.swift; sourceTree = "<group>"; };
+		3AFB8A8B2494DB1A000F2CF5 /* RowPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,12 +138,14 @@
 			children = (
 				3ACCD9ED248D8BFE00880DC7 /* AppDelegate.swift */,
 				3ACCD9EF248D8BFE00880DC7 /* SceneDelegate.swift */,
+				3AEA0260248ED38B00479A79 /* RootView.swift */,
 				3AEA0263248ED38B00479A79 /* BackgroundPreview.swift */,
 				3AEA0262248ED38B00479A79 /* ButtonsPreview.swift */,
-				3AEA0260248ED38B00479A79 /* RootView.swift */,
 				3AEA0264248ED38B00479A79 /* SurfacePreview.swift */,
+				3AFB8A8B2494DB1A000F2CF5 /* RowPreview.swift */,
 				3AEA025F248ED38B00479A79 /* TextPreview.swift */,
 				3AEA0261248ED38B00479A79 /* ThemePrview.swift */,
+				3AEA02F6249023BA00479A79 /* TextFieldPreview.swift */,
 				3ACCD9F3248D8BFF00880DC7 /* Assets.xcassets */,
 				3ACCD9F8248D8BFF00880DC7 /* LaunchScreen.storyboard */,
 				3ACCD9FB248D8BFF00880DC7 /* Info.plist */,
@@ -344,11 +350,13 @@
 				3AEA0268248ED38C00479A79 /* ButtonsPreview.swift in Sources */,
 				3AEA0267248ED38C00479A79 /* ThemePrview.swift in Sources */,
 				3ACCD9EE248D8BFE00880DC7 /* AppDelegate.swift in Sources */,
+				3AEA02F7249023BB00479A79 /* TextFieldPreview.swift in Sources */,
 				3ACCD9F0248D8BFE00880DC7 /* SceneDelegate.swift in Sources */,
 				3AEA026A248ED38C00479A79 /* SurfacePreview.swift in Sources */,
 				3AEA0269248ED38C00479A79 /* BackgroundPreview.swift in Sources */,
 				3AEA0265248ED38C00479A79 /* TextPreview.swift in Sources */,
 				3AEA0266248ED38C00479A79 /* RootView.swift in Sources */,
+				3AFB8A8C2494DB1A000F2CF5 /* RowPreview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
