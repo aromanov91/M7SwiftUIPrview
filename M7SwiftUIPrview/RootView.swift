@@ -48,6 +48,13 @@ struct RootView: View {
                 
 
             }.navigationBarTitle("General")
+            .navigationBarItems(trailing:
+                Button("Settings") {
+                    print("Help tapped!")
+                }
+            )
+            
+
         }
     }
 }

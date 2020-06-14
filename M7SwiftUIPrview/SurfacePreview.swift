@@ -13,6 +13,8 @@ struct SurfacePreview: View {
     
     var body: some View {
         
+        
+        
         ScrollView {
             
             VStack(spacing: M7Paddings.all.s) {
@@ -80,6 +82,7 @@ struct SurfacePreview: View {
             }.padding(M7Paddings.all.m)
             
         }.navigationBarTitle("Surface")
+        
     }
 }
 

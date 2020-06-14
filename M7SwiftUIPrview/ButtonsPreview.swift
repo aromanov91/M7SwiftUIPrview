@@ -47,7 +47,12 @@ struct ButtonsPreview: View {
             }.padding()
             
         }.navigationBarTitle("Buttons")
-           
+        
+        .navigationBarItems(trailing:
+            Button("Help") {
+                print("Help tapped!")
+            }
+        )
     }
 }
 
