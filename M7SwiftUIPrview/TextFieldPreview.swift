@@ -10,17 +10,20 @@ import SwiftUI
 import M7SwiftUI
 
 struct TextFieldPreview: View {
+    
+    @State private var sampleText = "Buttons"
+    
     var body: some View {
         
         ScrollView {
             
             VStack(spacing: M7Paddings.all.s) {
                 
-                M7TextField(placeholder: "sdfsfs")
+                M7TextField(placeholder: "sdfsfs", text: $sampleText)
                 
             }.padding()
             
-        }.navigationBarTitle("Buttons")
+        }.navigationBarTitle(sampleText)
     }
 }
 

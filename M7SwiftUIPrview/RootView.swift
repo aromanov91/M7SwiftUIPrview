@@ -16,45 +16,46 @@ struct RootView: View {
         NavigationView {
             
             M7List {
-
+                
                 NavigationLink(destination: ButtonsPreview()) {
                     M7Row("Buttons")
                 }
-
+                
                 NavigationLink(destination: SurfacePreview()) {
                     M7Row("Surface")
                 }
-
+                
                 NavigationLink(destination: BackgroundPreview()) {
                     M7Row("Background")
                 }
-
+                
                 NavigationLink(destination: TextPreview()) {
                     M7Row("Text")
                 }
-
+                
                 NavigationLink(destination: TextFieldPreview()) {
                     M7Row("Text field")
                 }
-
+                
                 NavigationLink(destination: RowPreview()) {
                     M7Row("Row")
                 }
-
+                
                 NavigationLink(destination: ThemePrview()) {
                     M7Row("Colors")
                 }
                 
                 
-
-            }.navigationBarTitle("General")
-            .navigationBarItems(trailing:
-                Button("Settings") {
-                    print("Help tapped!")
-                }
-            )
+                
+            }
             
-
+            .navigationBarTitle("General")
+                .navigationBarItems(trailing: Button(action: {}) {
+                    Image("settings")
+                })
+            .navigationViewStyle(DoubleColumnNavigationViewStyle())
+            
+            
         }
     }
 }
