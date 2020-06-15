@@ -9,41 +9,47 @@
 import SwiftUI
 import M7SwiftUI
 
-struct TextFieldPreview: View {
+
+class TextFieldPreviewViewModel: ObservableObject {
     
-    @State private var sampleText = "Text Field"
-    @State private var helperText = "Enter Success or Error"
-    @State private var helperStyle: M7TextFieldHelperStyle = .helperText
-    
-    var body: some View {
-
-        ScrollView {
-
-            VStack(spacing: M7Paddings.all.m) {
-
-                M7TextField(placeholder: "Label", text: $sampleText)
-
-                M7TextField(placeholder: "Label", text: $sampleText, helperText: $helperText, helperStyle: $helperStyle)
-
-                M7Button(action: { self.textCheck() }) {
-                    Text("Check")
-                }
-
-            }.padding()
-
-        }.navigationBarTitle(sampleText)
+    @Published var sampleText = "Text Field" {
+        didSet {
+            textCheck()
+        }
     }
-
+    @Published var helperText = "Enter Success or Error"
+    @Published var helperStyle: M7TextFieldHelperStyle = .helperText
+    
     func textCheck() {
-
+        
         if sampleText == "Success" {
             helperStyle = .sussesText
-
         } else if sampleText == "Error" {
             helperStyle = .errorText
         } else {
             helperStyle = .helperText
         }
+    }
+}
+
+
+struct TextFieldPreview: View {
+    
+    @ObservedObject var viewModel = TextFieldPreviewViewModel()
+    
+    var body: some View {
+        
+        ScrollView {
+            
+            VStack(spacing: M7Paddings.all.m) {
+                
+                M7TextField(placeholder: "Label", text: $viewModel.sampleText)
+                
+                M7TextField(placeholder: "Label", text: $viewModel.sampleText, helperText: $viewModel.helperText, helperStyle: $viewModel.helperStyle)
+                
+            }.padding()
+            
+        }.navigationBarTitle(viewModel.sampleText)
     }
 }
 
