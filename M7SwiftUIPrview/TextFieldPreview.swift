@@ -11,19 +11,39 @@ import M7SwiftUI
 
 struct TextFieldPreview: View {
     
-    @State private var sampleText = "Buttons"
+    @State private var sampleText = "Text Field"
+    @State private var helperText = "Enter Success or Error"
+    @State private var helperStyle: M7TextFieldHelperStyle = .helperText
     
     var body: some View {
-        
+
         ScrollView {
-            
-            VStack(spacing: M7Paddings.all.s) {
-                
-                M7TextField(placeholder: "sdfsfs", text: $sampleText)
-                
+
+            VStack(spacing: M7Paddings.all.m) {
+
+                M7TextField(placeholder: "Label", text: $sampleText)
+
+                M7TextField(placeholder: "Label", text: $sampleText, helperText: $helperText, helperStyle: $helperStyle)
+
+                M7Button(action: { self.textCheck() }) {
+                    Text("Check")
+                }
+
             }.padding()
-            
+
         }.navigationBarTitle(sampleText)
+    }
+
+    func textCheck() {
+
+        if sampleText == "Success" {
+            helperStyle = .sussesText
+
+        } else if sampleText == "Error" {
+            helperStyle = .errorText
+        } else {
+            helperStyle = .helperText
+        }
     }
 }
 
