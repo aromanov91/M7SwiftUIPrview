@@ -9,7 +9,6 @@
 import SwiftUI
 import M7SwiftUI
 
-
 class TextFieldPreviewViewModel: ObservableObject {
     
     @Published var sampleText = "Text Field" {
@@ -43,9 +42,16 @@ struct TextFieldPreview: View {
             
             VStack(spacing: M7Paddings.all.m) {
                 
+               
                 M7TextField(placeholder: "Label", text: $viewModel.sampleText)
                 
                 M7TextField(placeholder: "Label", text: $viewModel.sampleText, helperText: $viewModel.helperText, helperStyle: $viewModel.helperStyle)
+                
+                M7TextField(placeholder: "Label", text: $viewModel.sampleText, helperText: $viewModel.helperText, helperStyle: $viewModel.helperStyle, leadingImage: "book", trallingImage: "book")
+                
+                                M7TextField(placeholder: "Label", text: $viewModel.sampleText, helperText: $viewModel.helperText, helperStyle: $viewModel.helperStyle, trallingImage: "calendar")
+                
+                M7TextField(placeholder: "Label", text: $viewModel.sampleText, helperText: $viewModel.helperText, helperStyle: $viewModel.helperStyle, trallingImage: "chevron-down")
                 
             }.padding()
             
