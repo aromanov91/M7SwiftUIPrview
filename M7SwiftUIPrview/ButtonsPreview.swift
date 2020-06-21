@@ -20,27 +20,27 @@ struct ButtonsPreview: View {
                     Text("Default")
                 }
                 
-                M7Button(buttonStyle: .primary, shadow: true, action: { print("work") }) {
+                M7Button(style: .primary, shadow: true, action: { print("work") }) {
                     Text("Primary")
                 }
                 
-                M7Button(buttonStyle: .secondary, size: .m, round: .full, shadow: true, action: { print("work") }) {
+                M7Button(style: .secondary, size: .m, round: .full, shadow: true, action: { print("work") }) {
                     Text("Secondary")
                 }
                 
-                M7Button(buttonStyle: .gray, round: .full, shadow: false, action: { print("work") }) {
+                M7Button(style: .gray, round: .full, shadow: false, action: { print("work") }) {
                     Text("Gray")
                 }
                 
-                M7Button(buttonStyle: .link, shadow: false, action: { print("work") }) {
+                M7Button(style: .link, shadow: false, action: { print("work") }) {
                     Text("Link")
                 }
                 
-                M7Button(buttonStyle: .deleteLink, shadow: false, action: { print("work") }) {
+                M7Button(style: .deleteLink, shadow: false, action: { print("work") }) {
                     Text("DeleteLink")
                 }
                 
-                M7Button(buttonStyle: .primary, round: .none, shadow: true, action: { print("work") }) {
+                M7Button(style: .primary, round: .none, shadow: true, action: { print("work") }) {
                     Text("Primary")
                 }
                 

@@ -9,8 +9,6 @@
 import SwiftUI
 import M7SwiftUI
 
-
-
 struct ContentView: View {
     
     @State var selected = "Select color"
@@ -28,27 +26,14 @@ struct ContentView: View {
                     self.show.toggle()
                 }) {
                     Text(self.selected)
-                }
+                }.padding()
                 
 //                M7TextField(placeholder: "fdsf", text: $selected)
-//
-//
-//
+                
 //                    .onTapGesture {
-//
-//
-//
-//
-//
+
 //                         self.show.toggle()
-//
-//
 //                }
-                    
-    
-                
-                
-                
                 
 //                M7TextField("dfsdfsdg", text: $selected).onTapGesture {
 //                    self.show.toggle()
@@ -63,7 +48,7 @@ struct ContentView: View {
                 
             }.background(Color(UIColor.label.withAlphaComponent(self.show ? 0.2 : 0)).edgesIgnoringSafeArea(.all))
             
-        }.animation(.default)
+            }.animation(.default)
     }
 }
 

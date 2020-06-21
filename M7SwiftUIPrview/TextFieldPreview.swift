@@ -38,10 +38,9 @@ struct TextFieldPreview: View {
     
     var body: some View {
         
-        ScrollView {
+        M7Scroll {
             
             VStack(spacing: M7Paddings.all.m) {
-                
                
                 M7TextField(placeholder: "Label", text: $viewModel.sampleText)
                 
@@ -52,6 +51,7 @@ struct TextFieldPreview: View {
                                 M7TextField(placeholder: "Label", text: $viewModel.sampleText, helperText: $viewModel.helperText, helperStyle: $viewModel.helperStyle, trallingImage: "calendar")
                 
                 M7TextField(placeholder: "Label", text: $viewModel.sampleText, helperText: $viewModel.helperText, helperStyle: $viewModel.helperStyle, trallingImage: "chevron-down")
+                
                 
             }.padding()
             

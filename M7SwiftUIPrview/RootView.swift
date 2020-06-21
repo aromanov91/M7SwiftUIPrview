@@ -41,9 +41,19 @@ struct RootView: View {
                     M7Row("Row")
                 }
                 
+                NavigationLink(destination: SelectPreview()) {
+                    M7Row("Select")
+                }
+                
                 NavigationLink(destination: ThemePrview()) {
                     M7Row("Colors")
                 }
+                
+                NavigationLink(destination: AlertPreview()) {
+                    M7Row("Alert")
+                }
+                
+                
                 
                 
                 
