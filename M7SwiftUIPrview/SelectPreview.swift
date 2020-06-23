@@ -13,7 +13,11 @@ struct SelectPreview: View {
     
     var rows = ["Строчка", "Еще строчка", "kdsklf", "dgdfg", "kdsklf", "dgdfg", "kdsklf", "dgdfg", "kdsklf", "dgdfg", "kdsklf", "dgdfg", "kdsklf", "dgdfg"]
     
-    @State var select = "Select"
+    @State var selectAction = "Select action"
+    @State var selectModal = "Select modal"
+    @State var date = Date()
+    
+    @State var error = false
     
     var body: some View {
         
@@ -23,15 +27,32 @@ struct SelectPreview: View {
             
             VStack(spacing: M7Paddings.all.s) {
                 
-               
+                M7SelectAction(rows, selected: $selectAction)
                 
-                M7SelectModal(rows, selected: $select)
+                M7SelectModal(rows, selected: $selectModal)
                 
-                M7SelectAction(rows, selected: $select)
-                    
+                M7DatePicker(date: $date)
                 
                 
+                if error {
+                                   M7Text("Error").foregroundColor(M7Colors.error)
+                               }
+                
+                M7Button(action: {
+                    if self.selectModal == "Select modal" ||  self.selectAction == "Select action" {
+                        
+                        self.error = true
+                        
+                    } else {
+                        
+                        self.error = false
+                    }
+                }) {
+                    Text("sdfds")
+                }
                 Spacer()
+                
+               
                 
             }.padding(M7Paddings.all.m)
             
